@@ -1,71 +1,93 @@
 # AI and ML Internship Tasks – DevelopersHub Corporation
 
-This repository contains my completed work for the **AI/ML Engineering Internship** at DevelopersHub Corporation.  
-I successfully completed **three tasks**, covering data preprocessing, exploratory data analysis, visualization, machine learning models, evaluation metrics, and insights.
+This repository contains my work completed during the **AI/ML Engineering Internship** at **DevelopersHub Corporation**.  
+The internship is structured in weekly phases, progressing from classical machine learning and data analysis to advanced AI and LLM based applications.
 
 ---
 
-##  Completed Tasks
+## Internship Progress Overview
 
-### **Task 1 – Iris Dataset Exploration**
-**Key Work Done:**
-- Loaded and inspected the Iris dataset using pandas and seaborn  
-- Performed descriptive analysis using `.info()` and `.describe()`  
-- Visualized the dataset using scatter plots, pairplots, histograms, and boxplots  
-- Explored feature relationships and species distributions  
+- **Week 1:** Foundations of Machine Learning and Data Analysis  
+- **Week 2:** Advanced AI, Transformers, and LLM Applications  
+
+---
+
+## Week 1 Tasks – Machine Learning Foundations
+
+### Task 1 – Iris Dataset Exploration
+**Key Work Completed:**
+- Loaded and inspected the Iris dataset using Pandas and Seaborn
+- Performed descriptive analysis using `.info()` and `.describe()`
+- Visualized feature relationships using scatter plots, pairplots, histograms, and boxplots
+- Analyzed species distributions and feature correlations
 
 **Notebook:** `Task1_Iris_Visualization.ipynb`
 
 ---
 
-### **Task 3 – Heart Disease Prediction**
-**Key Work Done:**
-- Cleaned dataset and filled missing values  
-- Conducted EDA including correlations and distribution analysis  
-- Trained Logistic Regression and Decision Tree models  
-- Evaluated results using accuracy, confusion matrix, ROC curve, and ROC-AUC score  
-- Identified important features impacting predictions  
+### Task 3 – Heart Disease Prediction
+**Key Work Completed:**
+- Cleaned dataset and handled missing values
+- Conducted Exploratory Data Analysis including correlation analysis
+- Trained Logistic Regression and Decision Tree models
+- Evaluated models using accuracy, confusion matrix, ROC curve, and ROC AUC score
+- Identified key features influencing heart disease prediction
 
 **Notebook:** `Task3_Heart_Disease.ipynb`
 
 ---
 
-### **Task 6 – House Price Prediction**
-**Key Work Done:**
-- Loaded dataset using KaggleHub  
-- Performed preprocessing with one hot encoding, scaling, and handling skewed targets  
-- Trained Linear Regression, Random Forest, and Gradient Boosting models  
-- Applied GridSearchCV for Gradient Boosting tuning  
-- Evaluated models using MAE, RMSE, and R²  
-- Plotted actual vs predicted values  
-- Exported best model as `gbr_model.joblib`
+### Task 6 – House Price Prediction
+**Key Work Completed:**
+- Loaded dataset using KaggleHub
+- Applied preprocessing including one hot encoding, feature scaling, and target transformation
+- Trained Linear Regression, Random Forest, and Gradient Boosting models
+- Performed hyperparameter tuning using GridSearchCV
+- Evaluated models using MAE, RMSE, and R² metrics
+- Visualized actual vs predicted prices
+- Exported the best performing model as `gbr_model.joblib`
 
 **Notebook:** `Task6_House_Price.ipynb`
 
 ---
 
-## 📁 Folder Structure
+## Week 2 Tasks – Advanced AI and LLM Applications
 
+### Task 1 – News Topic Classifier Using BERT
+**Key Work Completed:**
+- Fine tuned a pre trained BERT transformer on the AG News dataset
+- Performed tokenization and preprocessing using Hugging Face Transformers
+- Evaluated the model using Accuracy and Weighted F1 Score
+- Deployed the trained model using Streamlit for live headline classification
+  ## Screenshot
 
-```
-Task1_Iris_Exploration
-Task3_Heart_Disease_Prediction
-Task6_House_Price_Prediction
-README.md
-```
----
+Screenshots demonstrating model outputs and Streamlit applications for NEWS_CLASSIFIER_USING_BERT.ipynb
+<img width="1915" height="806" alt="image" src="https://github.com/user-attachments/assets/fbd2f4a2-93cd-4530-8944-97f3e0fdf1da" />
 
-## 🛠️ Tools & Technologies
-- Python  
-- Pandas  
-- NumPy  
-- Matplotlib  
-- Seaborn  
-- Scikit-learn  
-- KaggleHub  
+**Technologies:** BERT, Hugging Face Transformers, PyTorch, Streamlit
 
 ---
 
-## 📬 Submission
-All tasks have been completed and uploaded to GitHub as required for the internship.
+### Task 4 – Context Aware Chatbot Using RAG
+**Key Work Completed:**
+- Implemented Retrieval Augmented Generation using LangChain
+- Created document embeddings and stored them in a FAISS vector database
+- Enabled conversational memory for context retention
+- Built a Streamlit based chatbot interface for real time interaction
+
+**Technologies:** LangChain, FAISS, Hugging Face, Streamlit
+
+---
+
+### Task 5 – Auto Tagging Support Tickets Using LLM
+**Key Work Completed:**
+- Implemented LLM based ticket classification using prompt engineering
+- Compared zero shot and few shot learning approaches
+- Generated top 3 most probable tags per support ticket
+- Analyzed performance differences between prompting strategies
+
+**Technologies:** LLMs, Prompt Engineering, Few Shot Learning
+
+---
+
 
